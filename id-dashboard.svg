@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+<title id="title">Dhruv Sahu Developer ID</title><desc id="desc">Developer identity card with verified profile information.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+    <stop offset="0" stop-color="#070b16"/><stop offset="1" stop-color="#0c1427"/>
+  </linearGradient>
+  <linearGradient id="line" x1="0" x2="1">
+    <stop offset="0" stop-color="#247bff"/><stop offset="1" stop-color="#ff354f"/>
+  </linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="10" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <style>
+    .bg{fill:url(#bg)} .t{fill:#f5f7fb;font-family:Arial,Helvetica,sans-serif}
+    .muted{fill:#9ca8bd;font-family:Arial,Helvetica,sans-serif}
+    .blue{fill:#247bff} .red{fill:#ff354f}
+    .line{stroke:url(#line);stroke-width:1.5;fill:none}
+    .card{fill:#0d1527;stroke:#26334d;stroke-width:1}
+    @media (prefers-reduced-motion: reduce) { * { animation:none!important; } }
+  </style>
+</defs>
+
+<rect width="1200" height="520" rx="28" class="bg"/>
+<text x="70" y="75" class="muted" font-size="18">03 / ID DASHBOARD</text>
+<g transform="translate(180 105)">
+ <rect x="0" y="0" width="600" height="330" rx="24" fill="#101a2d" stroke="#31415f" stroke-width="2"/>
+ <rect x="0" y="0" width="600" height="70" rx="24" fill="#111f38"/>
+ <rect x="0" y="45" width="600" height="25" fill="#111f38"/>
+ <text x="32" y="44" class="t" font-size="22" font-weight="800">DHRUV SAHU</text>
+ <text x="390" y="44" class="muted" font-size="15">DEVELOPER ID</text>
+ <rect x="30" y="100" width="170" height="190" rx="14" fill="#0a1020" stroke="#26334d"/>
+ <image href="id.png" x="38" y="108" width="154" height="174" preserveAspectRatio="xMidYMid meet"/>
+ <text x="235" y="120" class="muted" font-size="15">EDUCATION</text>
+ <text x="235" y="150" class="t" font-size="21" font-weight="700">B.Tech CSE</text>
+ <text x="235" y="182" class="muted" font-size="15">Axis Institute of Technology &amp;</text>
+ <text x="235" y="205" class="muted" font-size="15">Management</text>
+ <text x="235" y="245" class="muted" font-size="15">FOCUS</text>
+ <text x="235" y="273" class="t" font-size="19">Full Stack • AI • Web</text>
+ <rect x="235" y="298" width="260" height="5" rx="2" fill="url(#line)"/>
+</g>
+<text x="820" y="155" class="t" font-size="28" font-weight="700">Verified-only profile</text>
+<text x="820" y="195" class="muted" font-size="18">No invented stats.</text>
+<text x="820" y="225" class="muted" font-size="18">No fake project metrics.</text>
+<text x="820" y="255" class="muted" font-size="18">Only information you can verify.</text>
+</svg>
